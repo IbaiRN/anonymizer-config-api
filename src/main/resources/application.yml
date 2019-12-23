@@ -1,0 +1,13 @@
+server:
+    port: 8080
+    
+spring:
+  datasource:
+    url: jdbc:postgresql://10.28.0.237:5432/NYMIZ
+    username: postgres
+    password: serikat
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: none
